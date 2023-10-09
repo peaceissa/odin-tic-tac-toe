@@ -83,3 +83,8 @@ const displayController = (() => {
 
     return { getCurrentPlayer };
 })();
+const start = document.getElementById('btn');
+start.addEventListener("click",function(){
+    // Refresh the current page
+location.reload();
+});
